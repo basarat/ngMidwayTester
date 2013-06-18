@@ -204,3 +204,8 @@
   };
 
 })();
+
+// Expose to RequireJS same as jquery
+if ( typeof define === "function" && define.amd ) {
+  define( "ngMidwayTester", [], function () { return ngMidwayTester; } );
+}
