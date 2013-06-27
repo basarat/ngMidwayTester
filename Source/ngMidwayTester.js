@@ -103,10 +103,6 @@
     return element;
   };
 
-  ngMidwayTester.prototype.module = function(module) {
-    return this.$module;
-  };
-
   ngMidwayTester.prototype.factory = function(service) {
     return this.service(service);
   };
